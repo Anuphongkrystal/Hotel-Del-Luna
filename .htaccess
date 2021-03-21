@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-zA-Z0-9_]+)$ $1.php [QSA,NC,L]
+
+ErrorDocument 404 /hotel-del-luna/404.php
+
+<FilesMatch ".(htaccess)">
+  order allow,deny
+  deny from all
+</FilesMatch>
+
+#Options +MultiViews
+
+IndexIgnore *
