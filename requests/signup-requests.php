@@ -28,10 +28,6 @@
 
         echo $login->SIGNUP($fname,$lname,$email,$password,$tel,$ip);
 
-    }else{
-      echo "<script type='text/javascript'>
-        console.log('ไม่สำเร็จ');
-      </script>";
     }
 
   }

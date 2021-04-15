@@ -12,6 +12,5 @@
         <a href="index" class="">Home</a>
         <a href="login" class="">Login</a>
         <a href="Signup" class="">Signup</a>
-        <a href="developer">Developer</a>
-        <a href="help">Help</a>
+        <a href="logout">logout</a>
       </div>
